@@ -17,5 +17,6 @@ public class Main {
     public static void main(String[] args) {
     Task1.helloWorld();
     Task2.averageOfArray();
+    System.out.println(Task3.returning());
     }
 }
