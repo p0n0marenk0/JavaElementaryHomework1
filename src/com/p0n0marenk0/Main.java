@@ -14,8 +14,8 @@
 package com.p0n0marenk0;
 
 public class Main {
-
     public static void main(String[] args) {
-
+    Task1.helloWorld();
+    Task2.averageOfArray();
     }
 }

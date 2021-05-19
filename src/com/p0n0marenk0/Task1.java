@@ -6,12 +6,8 @@
 package com.p0n0marenk0;
 
 public class Task1 {
-
-    public static void main(String[] args) {
-        helloWorld();
-    }
-
-    private static void helloWorld() {
+    public static void helloWorld() {
+        System.out.println("Result of Task1");
         for (int i = 1; i < 100; i++) {
             if ((i % 3 == 0) && (i % 5 != 0)) {
                 System.out.print("Hello ");
@@ -23,5 +19,7 @@ public class Task1 {
                 System.out.print(i + " ");
             }
         }
+        System.out.println();
+        System.out.println();
     }
 }
